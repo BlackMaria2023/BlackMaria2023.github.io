@@ -7,12 +7,9 @@
 #navbar-with-carousel {
   background-image: ('img/carousel1.jpg');
   background-size: cover;
-   background-position: center;
-   background-color: blue;
-  
-  
-  }
-
+  background-position: center;
+  background-color: blue;
+}
 
 body {
   background-color: black;
@@ -20,18 +17,13 @@ body {
 }
 
 
-
 .links {
-
   text-align: right;
-
 }
 
 .logo {
   position: relative;
-
   left: 50px;
-
 }
 
 /*revisar la imagen de fondo con el carrusel */
@@ -41,7 +33,6 @@ body {
 
 /* */
 
-
 .contenedor-flex {
   display: flex;
   justify-content: center;
@@ -50,9 +41,7 @@ body {
 .columna {
   width: 30%;
   padding: 20px;
-
   background-color: black;
-
   box-sizing: border-box;
 }
 
@@ -62,10 +51,7 @@ body {
 }
 
 
-
-
 h2 {
-
   justify-content: center;
   display: flex;
 }
@@ -77,38 +63,31 @@ h2 {
 
 .card {
   background-color: black;
-
-
 }
 
 .mensaje-input {
   height: 200px;
 }
 
-
 /* tooltip form*/
 
 label {
-
   display: flex;
   width: 5em;
 }
 
 a {
   text-decoration: none;
-  color:#d0e8ee;
-  
+  color: #d0e8ee;
   font-size: 20px;
-  
 }
 
 span {
   font-size: 20px;
-  
 }
 
 .card-header {
-  text-align:center;
+  text-align: center;
   align-items: center;
   align-content: center;
   height: 40px;
