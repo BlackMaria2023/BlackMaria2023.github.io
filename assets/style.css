@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  order: 0;
+}
+
+#navbar-with-carousel {
+  background-image: ('img/carousel1.jpg');
+  background-size: cover;
+   background-position: center;
+   background-color: blue;
+  
+  
+  }
+
+
+body {
+  background-color: black;
+  color: #d0e8ee;
+}
+
+
+
+.links {
+
+  text-align: right;
+
+}
+
+.logo {
+  position: relative;
+
+  left: 50px;
+
+}
+
+/*revisar la imagen de fondo con el carrusel */
+.nav {
+  background-image: ('img/carousel1.jpg');
+}
+
+/* */
+
+
+.contenedor-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.columna {
+  width: 30%;
+  padding: 20px;
+
+  background-color: black;
+
+  box-sizing: border-box;
+}
+
+
+.color-texto {
+  color: #d0e8ee;
+}
+
+
+
+
+h2 {
+
+  justify-content: center;
+  display: flex;
+}
+
+.img2 {
+  height: 4000px;
+  font-weight: 900px;
+}
+
+.card {
+  background-color: black;
+
+
+}
+
+.mensaje-input {
+  height: 200px;
+}
+
+
+/* tooltip form*/
+
+label {
+
+  display: flex;
+  width: 5em;
+}
+
+a {
+  text-decoration: none;
+  color:#d0e8ee;
+  
+  font-size: 20px;
+  
+}
+
+span {
+  font-size: 20px;
+  
+}
+
+.card-header {
+  text-align:center;
+  align-items: center;
+  align-content: center;
+  height: 40px;
+}
+
+.texto {
+  padding-top: 20px;
+}
+
+.card-img-top {
+  max-height: 220px;
+}
+
+.iconos {
+  max-height: 220px;
+  padding-top: 20px;
+}
