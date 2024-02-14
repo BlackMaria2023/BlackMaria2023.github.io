@@ -8,8 +8,18 @@
   background-image: ('img/carousel1.jpg');
   background-size: cover;
   background-position: center;
-  background-color: blue;
+  
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+
 
 body {
   background-color: black;
@@ -27,9 +37,6 @@ body {
 }
 
 /*revisar la imagen de fondo con el carrusel */
-.nav {
-  background-image: ('img/carousel1.jpg');
-}
 
 /* */
 
