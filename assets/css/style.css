@@ -4,19 +4,14 @@
   order: 0;
 }
 
-#navbar-with-carousel {
-  background-image: ('img/carousel1.jpg');
-  background-size: cover;
-  background-position: center;
-
-}
-
 .navbar {
   position: fixed;
+  opacity: 0.5;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 100;
+  background-color: black;
 }
 
 body {
@@ -99,7 +94,3 @@ span {
   max-height: 200px;
 }
 
-.iconos {
-  max-height: 220px;
-  padding-top: 20px;
-}
